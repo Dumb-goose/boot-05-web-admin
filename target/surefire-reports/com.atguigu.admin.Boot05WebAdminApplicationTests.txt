@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.atguigu.admin.Boot05WebAdminApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.41 s - in com.atguigu.admin.Boot05WebAdminApplicationTests

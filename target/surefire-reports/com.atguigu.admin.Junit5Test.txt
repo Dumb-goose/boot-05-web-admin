@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.atguigu.admin.Junit5Test
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 1.606 s <<< FAILURE! - in com.atguigu.admin.Junit5Test
+timeoutTest  Time elapsed: 1.516 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 超时了咧！ ==> execution exceeded timeout of 1000 ms by 507 ms
+	at com.atguigu.admin.Junit5Test.timeoutTest(Junit5Test.java:81)
+
+all  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+test (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	org.opentest4j.AssertionFailedError: 不一样捏! ==> array contents differ at index [0], expected: <2> but was: <1>
+	at com.atguigu.admin.Junit5Test.all(Junit5Test.java:88)
+
+exceptionTest  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 数学看来不是体育老师教的! ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at com.atguigu.admin.Junit5Test.exceptionTest(Junit5Test.java:71)
+
+testSimpleAssertions  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 这两个对象不相同 ==> expected: <java.lang.Object@357bc488> but was: <java.lang.Object@4ea17147>
+	at com.atguigu.admin.Junit5Test.testSimpleAssertions(Junit5Test.java:56)
+

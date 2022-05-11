@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.myservice",
+      "type": "com.atguigu.admin.acutuator.endpoint.MyServiceEndPoint",
+      "sourceType": "com.atguigu.admin.acutuator.endpoint.MyServiceEndPoint"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.atguigu.admin.config.MyDataSource",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.myservice.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.atguigu.admin.acutuator.endpoint.MyServiceEndPoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.myservice.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the myservice endpoint.",
+      "sourceType": "com.atguigu.admin.acutuator.endpoint.MyServiceEndPoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}
